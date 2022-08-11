@@ -15,11 +15,13 @@ Web page to control a bot panel and store moves in a database using php
 # database for moves when inserted:
 ![7](https://user-images.githubusercontent.com/95648490/184067991-647dd01a-9a14-452f-8286-422415172119.png)
 # code php to connect with database:
+
 <?php
 $connention = mysqli_connect('localhost','root','1234','moverobot');
 if (!$connention) { echo "Connection failed";
 }
 ?>
+
 # code html to create web page:
 <!DOCTYPE html>
 <html lang="en">
