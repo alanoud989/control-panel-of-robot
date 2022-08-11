@@ -138,7 +138,7 @@ body{
 
 
 <?php
-    // write to database
+    
     if (isset($_POST['left'])) {
         $query = "INSERT INTO moves (VALUEMOVE) VALUES ('left') ";
         $result =  mysqli_query($connention, $query);
